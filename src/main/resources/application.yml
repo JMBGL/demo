@@ -1,6 +1,9 @@
-#spring:
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-#    jdbc-url: jdbc:mysql://localhost:3306/six??autoReconnect=true&socketTimeout=200000
-#    username: jma
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://dbproxy.uat.tools.bgl360.com.au:33306/six?autoReconnect=true&socketTimeout=200000
+    username: jma
+    password: knA1mrnwGGQoWdaZb6kdbNdl2vLy
+#    url: jdbc:mysql://localhost:3306/six
+#    username: six
 #    password: 123
